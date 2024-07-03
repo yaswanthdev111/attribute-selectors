@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       [class]{
+        background-color:red;
+        }
+    [for="surname"]
+        {
+            background-color:blue;
+        }
+
+        [type~="pass"]
+        {
+            background-color:black;
+        }
+        [type|="fail"]{
+            background-color:pink;
+        }
+        [for^="tel"]{
+        background-color:yellow;}
+        [type$="email"]
+        {
+            background-color:aqua;
+        }
+        [type*="submit"]{
+            background-color:brown;
+        }
+
+
+    </style>
+</head>
+<body>
+    <label class="ven" for="name">NAME:</label>
+    <input class="ven" type="text" id="name" placeholder="YASWANTH"/><br><br>
+    <label  for="surname">SURNAME:</label>
+    <input type="text" id="surname" placeholder="GUTLAPALLI" /><br><br>
+    <label  for="pass">EMAIL:</label>
+    <input  type="pass" id="pass"/><br><br>
+    <label for="fail">PASSWORD:</label>
+    <input type="fail" id="fail"/><br><br>
+    <label for="tel">MOBILE NUMBER:</label>
+    <input type="tel" id="tel"/><br><br>
+    <label for="email"> EMAIL</label>
+    <input type="email" id="email"/><br><br>
+    <input type="submit"
+
+
+</body>
+</html>
